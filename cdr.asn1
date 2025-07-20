@@ -1,0 +1,11 @@
+CDR DEFINITIONS ::= BEGIN
+
+CallRecord ::= SEQUENCE {
+  callId       INTEGER,
+  caller       IA5String,
+  callee       IA5String,
+  duration     INTEGER,
+  timestamp    IA5String
+}
+
+END
